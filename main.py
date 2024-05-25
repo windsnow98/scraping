@@ -2,7 +2,7 @@ from selenium.webdriver.chromium import options
 from selenium import webdriver
 
 def get_driver():
-  # Set options to make browsing easier
+  # Set options to make browsing easier 3
   options = webdriver.ChromeOptions()
   options.add_argument("disable-infobars")
   options.add_argument("start-maximized")
